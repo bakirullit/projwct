@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+</head>
+<body>
+  <div class="container">
+	  <div class="img"><img src="assets/imgs/logo.png" width="200px">
+	  </div><h2 class="text">Sign in as a Teacher</h2>
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+      <div class="form-group">
+        <label for="username"></label>
+        <input type="text" id="username" name="username" required>
+      </div>
+		<h2>Password</h2>
+      <div class="form-group">
+        <label for="password"></label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Login">
+      </div>
+    </form>
+    <p>Don't have an account? <a href="/register">Register</a></p>
+  </div>
+</body>
+</html>

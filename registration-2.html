@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+</head>
+<body>
+  <div class="container">
+	  <div class="img"><img src="assets/imgs/logo.png" width="200px">
+	  </div><h2 class="text">Sign up as a Teacher</h2>
+    <h2>Full Name</h2>
+    <form action="/register" method="POST">
+      <div class="form-group">
+        <label for="fullname"></label>
+        <input type="text" id="name" name="name" required>
+      </div>
+		<h2>Birth Date</h2>
+      <div class="form-group">
+        <label for="date"></label>
+        <input type="date" id="date" name="date" required>
+      </div>
+		<div class="form-group">
+        <label for="fullname"></label>
+        <input type="text" id="school" name="school" required>
+      </div>
+		<div class="form-group">
+        <label for="fullname"></label>
+        <input type="text" id="degree" name="degree" required>
+      </div>
+		<div class="form-group">
+        <label for="fullname"></label>
+        <input type="number" id="phone" name="phone" required>
+      </div>
+		<div class="form-group">
+        <label for="fullname"></label>
+        <input type="text" id="subject" name="subject" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Sign In">
+      </div>
+    </form>
+    <p>Don't have an account? <a href="/register">Register</a></p>
+  </div>
+</body>
+</html>
